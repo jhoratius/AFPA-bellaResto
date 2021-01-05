@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Bella Olonje Pizza Burgers Salade"/>
+        <meta lang="fr"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="formulaire_responsive.css" type="text/css" rel="stylesheet"/>
+        <link href="formulaire_media.css" type="text/css" rel="stylesheet">
+        <title>Bella Olonje • Order</title>
+    </head>
+
+<!-- Début de section Navigation-->
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="nav_top">
+        <div class="container d-flex flex-nowrap">
+            <div class="bella_logo">
+                <img class="bella_logo1" src="pictures/Bella Olonje logo 111 1.png">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <button type="button" class="btn btn_home" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                                Home
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal_title" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div>
+                                                <h5 class="modal-title" id="modal_title">Exit</h5>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                            Are you sure you want to get back into the main menu ?
+                                        </div>
+                                        <div class="row">
+                                            <div class="col btn_modal m-3">
+                                                <button type="button" id="exit">
+                                                    <a class="btn_text" href="bella_olonje_responsive.html">Exit</a>
+                                                </button>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contact</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div> 
+    </nav>
+</header>
+    <body>
+<!-- Fin de section Navigation -->
+<!-- Début de section Formulaire-->
+<div class="m-3">
+    <div class="info_title_main">
+        <div>
+            <h2 class="info_title">Informations</h2>
+        </div>
+        <div class="text_required">
+            <span>Fields marked with an <span class="red">*</span> are required</span>
+        </div>
+    </div>
+    <form class="m-3" >
+        <!-- <div class="btn_radio_div">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <div>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn_label" for="btnradio1">Mr.</label>
+                </div>
+                <div>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn_label" for="btnradio2">Mrs.</label>
+                </div>
+                <div>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn_label" for="btnradio2">Mrs.</label>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="radio_group">
+                <div class="radio_group2">
+                    <div>
+                        <label for="btnradio1" class="label_radio">Mr.</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="btnradio1" name="gender" autocomplete="off" checked>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="pictures/cursor.png" width=20>
+                    </div>
+                </div>
+                <div class="radio_group2">
+                    <div>
+                        <label for="btnradio2" class="label_radio">Mrs.</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="btnradio2" name="gender" autocomplete="off">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="pictures/cursor.png" width=20>
+                    </div>
+                </div>
+                <div class="radio_group2">
+                    <div>
+                        <label for="btnradio3" class="label_radio">Fill</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="btnradio3" name="gender" autocomplete="off">
+                    </div>
+                    <hr>
+                    <div>
+                        <input type="text" id="gender_text" size=2>
+                    </div>
+                </div>
+            </div>        
+            
+        <div class="div_infos">
+            <div class="div_infos1">
+                <div class="infos1">
+                    <div class="infos2">
+                        <label for="firstname">First Name</label><span class="red"> *</span>
+                    </div>
+                    <div class="infos2">
+                        <input required type="text" placeholder="Enter your first name" id="firstname">
+                    </div>
+                </div>
+                <div class="infos1">
+                    <div class="infos2">
+                        <label for="lastname">Last Name</label><span class="red"> *</span>
+                    </div>
+                    <div class="infos2">
+                        <input required type="text" placeholder="Enter your last name" id="lastname">
+                    </div>
+                </div>
+            </div>
+            <div class="div_infos2">
+                <div class="infos1">
+                    <div class="infos2">
+                        <label for="number">Phone number</label><span class="red"> *</span>
+                    </div>
+                    <div class="infos2">
+                        <input required type="tel" id="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                    </div>
+                </div>
+                <div class="infos1">
+                    <div class="infos2">
+                        <label for="email">E-mail</label><span class="red"> *</span>
+                    </div>
+                    <div class="infos2">
+                        <input required type="text" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section class="payment_main">
+            <h2 class="payment_title">Payment options</h2>
+            <div class="payment">
+                <div class="credit_card">
+                    <h4>Credit Card</h4>
+                    <form class="form1">
+                        <div class="numb1">
+                            <label for="card_number">Card Number</label>
+                            <input type="text" id="card_number" placeholder="0123 4567 8901 2345">
+                        </div>
+                        <div class="numb1">
+                            <label for="expiration_date">Expiration Date</label>
+                            <input type="text" id="expiration_date" placeholder="MM/YY">
+                        </div>
+                        <div class="numb1">
+                            <label for="cvc_cvv">CVC/CVV</label>
+                            <input type="text" id="cvc_cvv" placeholder="123">
+                        </div>
+                        <div class="numb1">
+                            <label for="card_name">Card Name</label>
+                            <input type="text" id="card_name" placeholder="P. Johnson">
+                        </div>
+                    </form>
+                </div>
+                <div class="paypal">
+                    <div class="paypal1">
+                        <div>
+                            <h4>Paypal</h4>
+                        </div>
+                        <div class="btn_paypal">
+                            <button type="button" class="btn btn_paypal2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="pictures/paypal_img.png" width="100">
+                            </button>
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header mdl_header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Log In</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body mdl_body">
+                                      <div class="modal_content">
+                                            <label for="email2">E-mail :</label>
+                                            <input type="text" id="email2">
+                                      </div>
+                                      <div class="modal_content">
+                                            <label for="password">Password :</label>
+                                            <input type="text" id="password">
+                                      </div>
+                                      <div class="connect">
+                                            <input type="submit" value="Connect" class="btn_connect2" id="btn_connect">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="terms_main">
+                <div>
+                    <input required type="checkbox" id="terms">
+                    <label class="terms_label" for="terms">I accept the <a href="#">Terms and Conditions</a> and the Privacy Policy.<span class="red"> *</span></label>
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
+                    <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms_mail">
+                    <label class="terms_label" for="terms_mail">I accept to receive the newletters by email.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms_msg">
+                    <label class="terms_label" for="terms_msg">I accept to receive the newletters by messages.</label>
+                </div>
+            </div>
+            <div>
+                <label class="subm" for="subm2">Submit</label>
+                <input type="submit" required id="subm2">
+            </div>
+    </form>
+</div>
+<!-- Fin de section Formulaire-->
+<!-- Début section Menus-->
+        <!-- Début section Pizza-->
+        
+        <!-- Fin section Pizza-->
+            <!-- Début section Burger-->
+    
+    </body>
+    <footer id="foot" class="row mx-3 my-5">
+        <section class="col-md-4 col-sm-12">
+            <div>
+                <h3 class="titles">Opening Hours</h3>
+                <div class="row">
+                    <ul class="col hours_para">
+                        <li class="hours_para2">
+                            <div class="list">Mon-Thu</div>
+                            <div class="list">11am—2pm / 5pm—11pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Friday</div>
+                            <div class="list">11am—2pm / 5pm—12pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Saturday</div>
+                            <div class="list">11am—2pm / 5pm—11pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Sunday</div>
+                            <div class="list">11am—3pm / 5pm—8pm</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4 col-sm-12">
+            <div class="info_para">
+                <h3 class="titles">Informations</h3>
+                <div>
+                    <p>Le 1er étage du restaurant n'est disponible que sous réservation.<br>
+                    Voir la page des <a href="#">réservations</a> .</p>
+                </div>
+                <div>
+                    <p>Les paiements se font par carte bleue, espèces ou par chèques restaurant.
+                    Les chèques banquaires ne sont pas acceptés.</p>
+                </div>
+                <div>
+                    <p>Animaux de compagnie acceptés sous conditions.<br>
+                    Ils doivent être tenus en laisse et être propres</p>
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4 col-sm-12">
+            <div class="contact_para">
+                <h3 class="titles">Contact</h3>
+                <div class="contact2">
+                    <p>Contact us by phone : 07.54.69.12.45<br> or 01.78.26.49.38</p>
+                </div>
+                <div class="contact2">
+                    <p>By email : bella.olonje@resto.fr</p>
+                </div>
+                <div class="contact2">
+                    <p>At this address : 54, Golden Perch Street • Longmushroom MN 24568 </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

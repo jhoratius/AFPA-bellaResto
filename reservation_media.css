@@ -1,0 +1,90 @@
+@media screen and (max-width : 480px){
+    /*Borders (1&2)*/
+    .firstpart, .fourthpart{
+        display:none;
+    }
+    .firstpart, .secondpart, .thirdpart, .fourthpart{
+        width:100%;
+    }
+    /*Opening hours*/
+    .list{
+        font-size:0.6em;
+    }
+    /*Contact*/
+    .contact2{
+        font-size:0.7em;
+    }
+}
+@media screen and (min-width : 481px) and (max-width:767px){
+    /*Borders (1&2)*/
+    .firstpart, .fourthpart{
+        display:none;
+    }
+    .firstpart, .secondpart, .thirdpart, .fourthpart{
+        width:100%;
+    }
+    .music_title{
+        margin-bottom:8%;
+    }
+    .music_title, .book_title{
+        font-size:1.2em;
+    }
+        /*Border (2)*/
+    #date, #hours, #number{
+        width:400px;
+    }
+    /*Opening hours*/
+    .list{
+        font-size:0.7em;
+    }
+    /*Contact*/
+    .contact2{
+        font-size:0.8em;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    /*Borders (1&2)*/
+    /*.parts_onetwo, .parts_threefour{
+        display: flex;
+        flex-direction: column;
+    }*/
+    .firstpart, .fourthpart{
+        display:none;
+    }
+    .firstpart, .secondpart, .thirdpart, .fourthpart{
+        width:100%;
+    }
+    .music_title{
+        margin-bottom:8%;
+    }
+    .music_title, .book_title{
+        font-size:1.4em;
+    }
+    #date, #hours, #number{
+        width:500px;
+    }
+    /*Opening hours*/
+    .list{
+        font-size:0.5em;
+    }
+    .titles{
+        font-size:0.9em;
+    }
+    /**/ 
+    /*Contact*/
+    .contact2{
+        font-size:0.9em;
+    }
+}
+@media screen and (min-width : 1024px) and (max-width:1599px){
+    /*Opening hours*/
+    .list{
+        font-size:0.6em;
+    }
+    .titles{
+        font-size:1.1em;
+    }
+}
+@media screen and (max-width : 1600px){
+
+}

@@ -1,0 +1,242 @@
+
+
+/* Polices importées*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    
+/* Polices d'écritures*/
+header, .food_app,.big_titles, h2,.input2{
+    font-family: "Montserrat",sans-serif;
+}
+.sent_banner, div > h2, #problem, .big_titles{
+    font-family:"Poppins", sans-serif;
+}
+.copyright{
+    font-family: 'Arial', sans-serif;
+}
+label{
+    font-family: 'Roboto';
+}
+.order{
+    color:#FA4A0C;
+}
+
+/* Tailles de polices */
+.sent_banner{
+    font-size:58px;
+}
+.parag1, .parag2{
+    font-size:36px;
+}
+.food_app, div > a, .para1{
+    font-size:24px;
+    font-weight: bold;
+}
+h2{
+    font-size:24px;
+    text-align: center;
+    font-weight: bold;
+    margin:2%;
+}
+.order{
+    font-weight: bold;
+}
+.para1{
+    font-weight: lighter;
+}
+h1{
+    font-size:44px;
+}
+.text_copyright{
+    font-size:12px;
+}
+.red{
+    color:red;
+}
+/*///////////////////////////////////////////////////*/
+
+/* Menu de Navigation*/
+li > a{
+    text-decoration:none;
+    color: black;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+}
+.contact1{
+    color:#FA4A0C;
+}
+.dropdown-item{
+    outline:none;
+}
+button[type=button]{
+    background-color: white;
+}
+button[type=button]:hover{
+    color: #9b4627c7;
+}
+    /*position(main)*/
+body{
+    margin:auto;
+}
+/*position (menu de bord)*/
+.btn_text{
+    text-decoration: none;
+    color:white;
+    border:1px solid #FA4A0C;
+    padding:12px 20px 12px 20px;
+    border-radius: 7px 7px;
+    background-color:#FA4A0C;
+    font-weight: bold;
+}
+.btn_home{
+    color:#FA4A0C;
+    font-weight: bold;
+}
+/*body position*/
+    /*main*/
+.parts_onetwo, .parts_threefour{
+    display:flex;
+}
+.firstpart{
+    width:50%;
+    height:350px;
+    text-align:center;
+}
+.secondpart{
+    width:50%;
+    text-align:center;
+}
+.thirdpart{
+    width:50%;
+    text-align:center;
+    margin:2% 0 2% 0;
+    height:350px;
+}
+.fourthpart{
+    width:50%;
+    text-align:center;
+}
+    /*first border part*/
+.progress1{
+    height:25%;
+    background-color: #FA4A0C;
+}
+.progress2{
+    height:25%;
+    background-color: #fa4b0ccb;
+}
+.progress3{
+    height:25%;
+    background-color: #fa4b0c9a;
+}
+.progress4{
+    height:25%;
+    background-color:#fa4b0c67;
+}
+.progress1, .progress2, .progress3, .progress4{
+    border-radius:none;
+}
+.book_title, .music_title{
+    font-size: 1.5em;
+}
+.music_title{
+    margin-bottom:12%;
+}
+
+    /*second border part*/
+.date_div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:20px 40px 20px 40px;
+}
+.numbers_div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:20px 40px 20px 40px;
+}
+.hours_div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:20px 40px 20px 40px;
+}
+#submit_btn{
+    display:none;
+}
+.submit_class{
+    color:white;
+    padding:8px;
+    background-color:#FA4A0C;
+    border : 1px solid #FA4A0C;
+    border-radius: 6px 6px;
+    cursor: pointer;
+}
+#date, #hours, #number{
+    border : 1px solid #FA4A0C;
+}
+.book_div{
+    padding:2%;
+}
+    /*Third border part*/
+.btn-group{
+    border :3px solid #FA4A0C;
+    margin:2%;
+}  
+#music{
+    display: none;
+}
+.music_label{
+    color:white;
+    padding:8px;
+    background-color:#FA4A0C;
+    border : 1px solid #FA4A0C;
+    border-radius: 6px 6px;
+    cursor: pointer;
+}
+/*Fourth part*/
+.progress5{
+    height:25%;
+    background-color: #fa4b0c67;
+}
+.progress6{
+    height:25%;
+    background-color:#fa4b0c9a;
+}
+.progress7{
+    height:25%;
+    background-color: #fa4b0ccb;
+}
+.progress8{
+    height:25%;
+    background-color:#FA4A0C;
+}
+    /*position_contact*/
+.hours_para{
+    display:grid;
+    gap:1em;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:1fr;
+}
+.hours_para2{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.titles{
+    text-align:center;
+    padding: 2%;
+    border: 3px solid #FA4A0C;
+    border-radius: 8px 8px;
+    }
+.list{
+    font-weight: initial;
+}
+.info_para{
+    font-size:0.8em;
+}
+/*///////////////////////////////////////////////////*/

@@ -1,0 +1,249 @@
+/* Polices importées*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Polices d'écritures*/
+header, .food_app, .pizza, .burger, .salad, #banner2{
+    font-family: 'Montserrat',sans-serif;
+}
+.sent_banner, div > h2, #problem{
+    font-family:'Poppins', sans-serif;
+}
+.copyright{
+    font-family: Arial, sans-serif;
+}
+#banner_2{
+    color:white;
+}
+
+/* Tailles de polices */
+.sent_banner{
+    font-size:58px;
+}
+.parag1, .parag2{
+    font-size:36px;
+}
+.food_app, div > a, .para1{
+    font-size:24px;
+    font-weight: bold;
+}
+.solved{
+    font-size:34px;
+}
+.para1{
+    font-weight: lighter;
+}
+h2{
+    font-size:44px;
+}
+.bon_appetit{
+    font-size:57px;
+}
+.text_copyright{
+    font-size:12px;
+}
+
+
+/* Menu de Navigation*/
+li > a{
+    text-decoration:none;
+    color: black;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+}
+.contact1{
+    color:#FA4A0C;
+}
+.dropdown-item{
+    background-color: white;
+    color:#FA4A0C;
+}
+.dropdown-item:hover{
+    color:white;
+}
+.nav-item{
+    padding-left:2%;
+    padding-right:2%;
+}
+.navbar-toggler{
+    border:3px solid #FA4A0C;
+}
+
+
+/* Bannière de haut de page */
+body > section > div > img{
+    width:100%;
+    height:619px;
+}
+
+/* Menus*/
+    /*Boutons*/
+.page-link{
+    color:#FA4A0C;
+}
+.btn{
+    border:1px solid #FA4A0C;
+    border-radius: 12px 12px;
+    padding:8px 16px 8px 16px;
+    background-color:#FA4A0C;
+    text-decoration: none;
+    color:white;
+}
+.btn:hover{
+    background-color:#E54107;
+    border:1px solid #E54107;
+}
+.dropdown-item:hover{
+    background-color:#E54107;
+    border:1px solid #E54107;
+}
+.btn:checked{
+    background-color:#E54107;
+    border:1px solid #E54107;
+}
+#dropdown_button, #basket_button{
+    border:1px solid #FA4A0C;
+    border-radius: 12px 12px;
+    background-color:#FA4A0C;
+    color:white;
+}
+
+.text_menu{
+    text-align:left;
+    padding-bottom:15%;
+    padding-top:3%;
+    font-weight: bold;
+}
+.card-title{
+    font-weight:bold;
+}
+.text_button{
+    text-align:right;
+}
+.superpose1{
+    align-items:space-between;
+}
+
+/*position*/
+
+body{
+    margin:auto;
+}
+    /*position (menu de bord)*/
+#logo1{
+    padding-left:8%;
+}
+#navbarDropdown{
+    color:#FA4A0C;
+    border-radius: 2px 2px;
+    background-color: white;
+    padding-left:2%;
+}
+    /*position (menus)*/
+
+.menu_notitle{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align:center;
+}
+#desserts_menu{
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-top:3%;
+}
+#burgers_menu, #salad_menu{
+    padding-top:2%;
+    padding-bottom:4%;
+    margin-top:3%;
+}
+#pizza_menu{
+    padding-top:4%;
+    padding-bottom:4%;
+}
+.menu_title{
+    width:100%;
+    padding-bottom:2%;
+}
+
+    /*position(problem solved)*/
+hr{
+    color: #FA4A0C;
+    ;
+}
+
+    /* position(banner)*/
+
+    /*position(footer)*/
+.info_para{
+    font-size:0.8em;
+}
+h3{
+    text-align:center;
+    padding: 2%;
+    border: 3px solid #FA4A0C;
+    border-radius: 8px 8px;
+}
+.list{
+    font-weight: initial;
+}
+.hours_para{
+    display:grid;
+    gap:1em;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:1fr;
+}
+.hours_para2{
+    display:grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*présentation*/
+.pizza, .burger, .salad{
+    border: 4px solid #FA4A0C;
+    border-radius: 8px 8px;
+    padding:20px;
+}
+p > a{
+    text-decoration:none;
+    font-weight:bold;
+    color : #FA4A0C;
+}
+p > a:hover{
+    color:black;
+}
+.tiramisu, .tartelette, .cheesecake{
+    border: 4px solid #FA4A0C;
+    border-radius: 8px 8px;
+    padding:20px;
+}
+
+/*dimensions images*/
+.card-img-top{
+    border-radius:6px 6px;
+}
+.img_salad{
+    width:377px;
+    height:213px;
+}
+.img_burger{
+    width:381px;
+    height:213px;
+}
+.img_pizza{
+    width:377px;
+    height:213px;
+}
+/*insertion images*/
+.d-block{
+    max-width: 100%;
+    height:auto;
+}
+.card{
+    border:none;
+}

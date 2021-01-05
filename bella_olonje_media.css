@@ -1,0 +1,86 @@
+/*@media*/
+    
+    /*navigation menu*/
+    @media screen and (max-width :480px){
+        .bella_logo{
+        max-width:100%;
+        }
+        .content_nav{
+        width:100%;
+        }
+        /*Opening hours*/
+        .list{
+            font-size:0.6em;
+        }
+    }
+    /*Problem solved*/
+    
+    @media screen and (min-width:481px) and (max-width :767px){
+    /*Problem solved*/
+        .solved{
+        font-size:1.3em;
+        }
+        .para1{
+        font-size:1em;
+        }
+        /*Opening hours*/
+        .list{
+            font-size:0.7em;
+        }
+    }
+    
+    @media screen and (min-width :768px ) and (max-width : 1023px){
+        /*Menus*/
+        .card-title{
+            font-size:1em;
+        }
+        /*Problem solved*/
+        .solved{
+        font-size:1.6em;
+        }
+        .para1{
+        font-size:1.3em;
+        }
+        /*Opening hours*/
+        .list{
+            font-size:0.5em;
+        }
+        .titles{
+            font-size:0.9em;
+        }
+    }
+    @media screen and (min-width :1024px ) and (max-width : 1599px){
+        /*Problem solved*/
+        .solved{
+        font-size:1.9em;
+        }
+        .para1{
+        font-size:1.6em;
+        }
+        /*Opening hours*/
+        .list{
+            font-size:0.6em;
+        }
+        .titles{
+            font-size:1.1em;
+        }
+    }
+    @media screen and (min-width : 1600px){
+        /*Problem solved*/
+        .solved{
+            font-size:2.2em;
+        }
+        .para1{
+            font-size:1.9em;
+        }
+    }    
+    /*@menu*/
+            /*@menu pizza*/
+
+            /*@contact*/
+    @media screen and (max-width : 1138px){
+        .hours_para, .info_para, .contact_para{
+            font-size: 0.6em;
+        }
+    }
+    

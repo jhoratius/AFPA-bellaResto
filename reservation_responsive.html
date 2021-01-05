@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Bella Olonje Pizza Burgers Salade"/>
+        <meta lang="fr"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="reservation_responsive.css" type="text/css" rel="stylesheet"/>
+        <link href="reservation_media.css" type="text/css" rel="stylesheet">
+        <title>Bella Olonje • Booking</title>
+    </head>
+
+<!-- Début de section Navigation-->
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="nav_top">
+        <div class="container d-flex flex-nowrap">
+            <div class="bella_logo">
+                <img class="bella_logo1" src="pictures/Bella Olonje logo 111 1.png">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <button type="button" class="btn btn_home" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                                Home
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal_title" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div>
+                                                <h5 class="modal-title" id="modal_title">Exit</h5>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+                                            Are you sure you want to get back into the main menu ?
+                                        </div>
+                                        <div class="row">
+                                            <div class="col btn_modal m-3">
+                                                <button type="button" id="exit">
+                                                    <a class="btn_text" href="bella_olonje_responsive.html">Exit</a>
+                                                </button>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contact</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div> 
+    </nav>
+</header>
+    
+<!-- Fin de section Navigation -->
+
+    <body>
+        <div>
+            <h2>Reservation</h2>
+        </div>
+<!-- Début de section Body-->
+        <!--Début de section borders-->
+        <div class="parts_onetwo container-fluid">
+            <section class="firstpart">
+                <div class="progress1"></div>
+                <div class="progress2"></div>
+                <div class="progress3"></div>
+                <div class="progress4"></div>
+            </section>
+            <section class="secondpart container-fluid">
+                <div class="book_div">
+                    <div>
+                        <h3 class="book_title">Book free days</h3>
+                    </div>
+                    <div>
+                        <div class="date_div">
+                            <label for="date">Choose a date to book :</label>
+                            <input type="date" id="date">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="hours_div">
+                            <label for="hours">Choose an hour to book :</label>
+                            <input type="time" id="hours">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="numbers_div">
+                            <label>Choose the number of participants :</label>
+                            <input type="number" id="number" min="1" max="12">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="submit_btn" class="submit_class">Book that moment</label>
+                        <input type="submit" id="submit_btn">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="parts_threefour">
+            <section class="thirdpart">
+                <div>
+                    <h3 class="music_title">Musically present</h3>
+                </div>
+                <div>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn"><img class="img-fluid" src="pictures/play_button1_previous.png"></button>
+                        <button type="button" class="btn"><img class="img-fluid" src="pictures/play_button1_play.png"></button>
+                        <button type="button" class="btn"><img class="img-fluid" src="pictures/play_button1_next.png"></button>
+                    </div>
+                </div>
+                <div>
+                    <p>Make a playlist for you & your loved ones</p>
+                    <label class="music_label" for="music">Upload</label>
+                    <input type="file" id="music">
+                </div>
+            </section>
+            <section class="fourthpart">
+                    <div class="progress5"></div>
+                    <div class="progress6"></div>
+                    <div class="progress7"></div>
+                    <div class="progress8"></div>
+            </section>
+        </div>
+        <!--Fin de section borders-->
+    </body>
+    <footer id="foot" class="row mx-3 my-5">
+        <section class="col-md-4 col-sm-12">
+            <div>
+                <h3 class="titles">Opening Hours</h3>
+                <div class="row">
+                    <ul class="col hours_para">
+                        <li class="hours_para2">
+                            <div class="list">Mon-Thu</div>
+                            <div class="list">11am—2pm / 5pm—11pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Friday</div>
+                            <div class="list">11am—2pm / 5pm—12pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Saturday</div>
+                            <div class="list">11am—2pm / 5pm—11pm</div>
+                        </li>
+                        <li class="hours_para2">
+                            <div class="list">Sunday</div>
+                            <div class="list">11am—3pm / 5pm—8pm</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4 col-sm-12">
+            <div class="info_para">
+                <h3 class="titles">Informations</h3>
+                <div>
+                    <p>Le 1er étage du restaurant n'est disponible que sous réservation.<br>
+                    Voir la page des <a href="#">réservations</a> .</p>
+                </div>
+                <div>
+                    <p>Les paiements se font par carte bleue, espèces ou par chèques restaurant.
+                    Les chèques banquaires ne sont pas acceptés.</p>
+                </div>
+                <div>
+                    <p>Animaux de compagnie acceptés sous conditions.<br>
+                    Ils doivent être tenus en laisse et être propres</p>
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4 col-sm-12">
+            <div class="contact_para">
+                <h3 class="titles">Contact</h3>
+                <div class="contact2">
+                    <p>Contact us by phone : 07.54.69.12.45<br> or 01.78.26.49.38</p>
+                </div>
+                <div class="contact2">
+                    <p>By email : bella.olonje@resto.fr</p>
+                </div>
+                <div class="contact2">
+                    <p>At this address : 54, Golden Perch Street • Longmushroom MN 24568 </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>
