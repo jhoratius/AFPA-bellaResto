@@ -30,9 +30,6 @@
         font-size:1.2em;
     }
         /*Border (2)*/
-    #date, #hours, #number{
-        width:400px;
-    }
     /*Opening hours*/
     .list{
         font-size:0.7em;
@@ -59,9 +56,6 @@
     }
     .music_title, .book_title{
         font-size:1.4em;
-    }
-    #date, #hours, #number{
-        width:500px;
     }
     /*Opening hours*/
     .list{
