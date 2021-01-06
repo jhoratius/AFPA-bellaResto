@@ -71,7 +71,9 @@ li{
 .navbar-toggler{
     border:3px solid #FA4A0C;
 }
-
+.nav_contact:hover{
+    color:rgb(85, 85, 85);
+}
 
 /* Bannière de haut de page */
 body > section > div > img{
@@ -91,11 +93,13 @@ body > section > div > img{
     background-color:#FA4A0C;
     text-decoration: none;
     color:white;
+    transition: .5s;
 }
 .btn:hover{
     background-color:#E54107;
     border:1px solid #E54107;
 }
+
 .dropdown-item:hover{
     background-color:#E54107;
     border:1px solid #E54107;
@@ -186,6 +190,9 @@ h2{
 .menu_title{
     width:100%;
     padding-bottom:2%;
+}
+#pizza_menu, #burgers_menu, #salad_menu, #desserts_menu{
+    border-top:1px solid #FA4A0C;
 }
 
     /*position(problem solved)*/

@@ -99,6 +99,11 @@ body{
     font-size:0.5em;
     text-align:center;
 }
+#gender_text{
+    border: 2px solid #FA4A0C;
+    border-radius: 2px 2px;
+    background-color:rgb(230, 230, 230);
+}
     /*Radio buttons*/
 .label_radio{
     color:#FA4A0C;
@@ -236,6 +241,10 @@ input[type=radio]:checked{
     color: white;
     margin-top:2%;
     cursor: pointer;
+}
+.subm:hover{
+    background-color:#9b4627c7;
+    border:1px solid #9b4627c7;
 }
 #subm2{
     display:none;

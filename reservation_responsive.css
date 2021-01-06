@@ -55,7 +55,10 @@ h1{
     color:red;
 }
 /*///////////////////////////////////////////////////*/
-
+/*hr*/
+hr{
+    color:#FA4A0C;
+}
 /* Menu de Navigation*/
 li > a{
     text-decoration:none;
@@ -163,7 +166,9 @@ body{
 .music_title{
     margin-bottom:12%;
 }
-
+.book_div{
+    border-top:1px solid #FA4A0C;
+}
     /*second border part*/
 .date_div{
     display:flex;
@@ -194,6 +199,10 @@ body{
     border-radius: 6px 6px;
     cursor: pointer;
 }
+.submit_class:hover{
+    background-color:#9b4627c7;
+    border:1px solid #9b4627c7;
+}
 #date, #hours, #number{
     border : 1px solid #FA4A0C;
 }
@@ -215,6 +224,10 @@ body{
     border : 1px solid #FA4A0C;
     border-radius: 6px 6px;
     cursor: pointer;
+}
+.music_label:hover{
+    background-color:#9b4627c7;
+    border:1px solid #9b4627c7;
 }
 /*Fourth border part*/
     .progress9{
@@ -239,11 +252,14 @@ body{
     background-color: #fa4b0ccb;
 }
 .progress8{
-    height:25%;
+    height:23.5%;
     background-color:#FA4A0C;
 }
 /*Sixth border part*/
-
+.minimap{
+    margin:0;
+    padding:0;
+}
     /*position_contact*/
 .hours_para{
     display:grid;
@@ -263,7 +279,8 @@ body{
     border-radius: 8px 8px;
     }
 .list{
-    font-weight: initial;
+    font-weight: bold;
+    transition: .5s;
 }
 .info_para{
     font-size:0.8em;

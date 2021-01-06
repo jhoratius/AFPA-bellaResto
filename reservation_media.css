@@ -6,6 +6,10 @@
     .firstpart, .secondpart, .thirdpart, .fourthpart, .fifthpart, .sixthpart{
         width:100%;
     }
+    .music_title, .book_title{
+        font-size:1.4em;
+        margin-top:10%;
+    }
     /*Opening hours*/
     .list{
         font-size:0.6em;
@@ -13,6 +17,10 @@
     /*Contact*/
     .contact2{
         font-size:0.7em;
+    }
+    /*Border (6)*/
+    .minimap{
+        width:100px;
     }
 }
 @media screen and (min-width : 481px) and (max-width:767px){
@@ -27,7 +35,7 @@
         margin-bottom:8%;
     }
     .music_title, .book_title{
-        font-size:1.2em;
+        font-size:1.4em;
     }
         /*Border (2)*/
     /*Opening hours*/
