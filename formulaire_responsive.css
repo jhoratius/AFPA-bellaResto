@@ -76,7 +76,11 @@ body{
     color:rgb(85, 85, 85);
 }
 /*position (menu de bord)*/
-
+#bttop{
+    text-decoration: none;
+    font-size:1.1em;
+    color:#FA4A0C;
+}
 /*form position*/
     /*information*/
     #firstname, #lastname, #number, #email{

@@ -148,13 +148,18 @@ body{
     display:flex;
     margin: 0;
 }
-.nav_contact:hover{
-    color:rgb(85, 85, 85);
+#bttop{
+    text-decoration: none;
+    font-size:1.1em;
+    color:#FA4A0C;
 }
     /*button collapse*/
     .tog_btn{
         display:grid;
-    }
+}
+    .nav_contact:hover{
+    color:rgb(85, 85, 85);
+}
     /*position (menus)*/
 
 .menu_notitle{

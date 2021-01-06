@@ -101,6 +101,11 @@ body{
 .nav_contact:hover{
     color:rgb(85, 85, 85);
 }
+#bttop{
+    text-decoration: none;
+    font-size:1.1em;
+    color:#FA4A0C;
+}
 /*body position*/
     /*main*/
 .parts_onetwo, .parts_threefour, .parts_fivesix{
