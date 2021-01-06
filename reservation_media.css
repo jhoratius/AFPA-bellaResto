@@ -1,9 +1,9 @@
 @media screen and (max-width : 480px){
     /*Borders (1&2)*/
-    .firstpart, .fourthpart{
+    .firstpart, .fourthpart, .sixthpart{
         display:none;
     }
-    .firstpart, .secondpart, .thirdpart, .fourthpart{
+    .firstpart, .secondpart, .thirdpart, .fourthpart, .fifthpart, .sixthpart{
         width:100%;
     }
     /*Opening hours*/
@@ -17,10 +17,10 @@
 }
 @media screen and (min-width : 481px) and (max-width:767px){
     /*Borders (1&2)*/
-    .firstpart, .fourthpart{
+    .firstpart, .fourthpart, .fifthpart{
         display:none;
     }
-    .firstpart, .secondpart, .thirdpart, .fourthpart{
+    .firstpart, .secondpart, .thirdpart, .fourthpart, .fifthpart, .sixthpart{
         width:100%;
     }
     .music_title{
@@ -45,10 +45,10 @@
         display: flex;
         flex-direction: column;
     }*/
-    .firstpart, .fourthpart{
+    .firstpart, .fourthpart,.fifthpart{
         display:none;
     }
-    .firstpart, .secondpart, .thirdpart, .fourthpart{
+    .firstpart, .secondpart, .thirdpart, .fourthpart, .fifthpart, .sixthpart{
         width:100%;
     }
     .music_title{
