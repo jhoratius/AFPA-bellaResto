@@ -69,6 +69,12 @@ li{
 body{
     margin:auto;
 }
+.nav_contact{
+    margin-left:2%;
+}
+.nav_contact:hover{
+    color:rgb(85, 85, 85);
+}
 /*position (menu de bord)*/
 
 /*form position*/

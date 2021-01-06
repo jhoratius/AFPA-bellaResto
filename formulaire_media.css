@@ -86,6 +86,11 @@
         font-size:0.9em;
     }
 }
+@media screen and (max-width : 576px){
+    .nav_appear{
+        display:none;
+    }
+}
 @media screen and (min-width : 768px) and (max-width : 1023px){
     /*Opening hours*/
     .list{

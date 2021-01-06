@@ -39,6 +39,11 @@
         font-size:0.8em;
     }
 }
+@media screen and (max-width : 576px){
+    .nav_appear{
+        display:none;
+    }
+}
 @media screen and (min-width : 768px) and (max-width : 1023px){
     /*Borders (1&2)*/
     /*.parts_onetwo, .parts_threefour{

@@ -95,6 +95,12 @@ body{
     color:#FA4A0C;
     font-weight: bold;
 }
+.nav_contact{
+    margin-left:2%;
+}
+.nav_contact:hover{
+    color:rgb(85, 85, 85);
+}
 /*body position*/
     /*main*/
 .parts_onetwo, .parts_threefour, .parts_fivesix{

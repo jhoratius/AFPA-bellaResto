@@ -65,8 +65,8 @@ li{
     color:white;
 }
 .nav-item{
-    padding-left:2%;
     padding-right:2%;
+    text-align: center;
 }
 .navbar-toggler{
     border:3px solid #FA4A0C;
@@ -140,8 +140,21 @@ body{
     color:#FA4A0C;
     border-radius: 2px 2px;
     background-color: white;
-    padding-left:2%;
 }
+.full_nav{
+    align-items: center;
+}
+.nav_appear{
+    display:flex;
+    margin: 0;
+}
+.nav_contact:hover{
+    color:rgb(85, 85, 85);
+}
+    /*button collapse*/
+    .tog_btn{
+        display:grid;
+    }
     /*position (menus)*/
 
 .menu_notitle{

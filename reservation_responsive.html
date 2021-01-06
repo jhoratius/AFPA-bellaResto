@@ -20,14 +20,55 @@
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="nav_appear">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <button type="button" class="btn btn_home" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Home
+                                </button>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal_title" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div>
+                                            <h5 class="modal-title" id="modal_title">Exit</h5>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body">
+                                        Are you sure you want to get back into the main menu ?
+                                    </div>
+                                    <div class="row">
+                                        <div class="col btn_modal m-3">
+                                            <button type="button" id="exit">
+                                                <a class="btn_text" href="bella_olonje_responsive.html">Exit</a>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#foot">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> 
+    </nav>
+</header>
+<!--Collapse beginning-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <button type="button" class="btn btn_home" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn_home" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Home
                             </button>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal_title" aria-hidden="true">
@@ -54,19 +95,13 @@
                                     </div>
                                 </div>
                             </div>
-                      </li>
+                        </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#foot">Contact</a>
+                        <a class="nav-link nav_contact" href="#foot">Contact</a>
                       </li>
                     </ul>
-                    
                   </div>
-                </div>
-              </nav>
-        </div> 
-    </nav>
-</header>
-    
+    <!-- Collapse Ending -->
 <!-- Fin de section Navigation -->
 
     <body>
