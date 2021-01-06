@@ -286,3 +286,60 @@ body{
     font-size:0.8em;
 }
 /*///////////////////////////////////////////////////*/
+.progress1{
+    animation: slideLeft 1.1s 0.2s;
+}
+.progress2{
+    animation: slideRight 1.1s 0.4s;
+}
+.progress3{
+    animation: slideLeft 1.1s 0.6s;
+}
+.progress4{
+    animation: slideRight 1.1s 0.8s;
+}
+.book_title{
+    animation: slideBottom 0.5s 0.6s;
+}
+.date_div{
+    animation: slideBottom 0.5s 0.9s;
+}
+.hours_div{
+    animation: slideBottom 0.5s 1.1s;
+}
+.numbers_div{
+    animation: slideBottom 0.5s 1.3s;
+}
+.submit_class{
+    animation: slideBottom 0.5s 1.5s;
+}
+.music_title{
+    animation: slideUp 1.1s 1.7s;
+}
+.progress9{
+    animation: slideBottom 1.1s 1.7s;
+}
+.btn-group{
+    animation: slideRight 1.1s 1.9s;
+}
+.progress10{
+    animation: slideUp 1.1s 2.1s;
+}
+.file_part{
+    animation: slideUp 1.1s 2.3s;
+}
+.progress5{
+    animation: slideRight 1.1s 2.5s;
+}
+.progress6{
+    animation: slideLeft 1.1s 2.7s;
+}
+.progress7{
+    animation: slideRight 1.1s 2.9s;
+}
+.progress8{
+    animation: slideLeft 1.1s 3.1s;
+}
+.minimap{
+    animation: slideUp 1.1s 3.1s;
+}

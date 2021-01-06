@@ -6,44 +6,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     
 /* Polices d'écritures*/
-header, .food_app, .pizza, .burger, .salad, #banner2, .order, .big_titles, h2,.input2{
+header, .pizza, .burger, .salad, h2{
     font-family: "Montserrat",sans-serif;
 }
-.sent_banner, div > h2, #problem, .big_titles{
+div > h2{
     font-family:"Poppins", sans-serif;
-}
-.copyright{
-    font-family: 'Arial', sans-serif;
 }
 label{
     font-family: 'Roboto';
 }
 
 /* Tailles de polices */
-.sent_banner{
-    font-size:58px;
-}
-.parag1, .parag2{
-    font-size:36px;
-}
-.food_app, div > a, .para1{
+.food_app, div > a{
     font-size:24px;
     font-weight: bold;
-}
-.order, h2{
-    font-size: 24px;
-}
-.order{
-    font-weight: bold;
-}
-.para1{
-    font-weight: lighter;
 }
 h1{
     font-size:44px;
 }
-.text_copyright{
-    font-size:12px;
+h2{
+    font-size: 24px;
 }
 .red{
     color:red;
@@ -58,9 +40,6 @@ li > a{
 li{
     list-style: none;
     font-weight: bold;
-}
-.contact1{
-    color:#FA4A0C;
 }
 .dropdown-item{
     outline:none;
@@ -83,14 +62,43 @@ body{
 }
 /*form position*/
     /*information*/
-    #firstname, #lastname, #number, #email{
-        border:2px solid #FA4A0C;
-        border-radius: 2px 2px;
-        padding:3px;
-    }
+#firstname, #lastname, #number, #email{
+    border:2px solid #FA4A0C;
+    border-radius: 2px 2px;
+    padding:3px;
+}
 .info_title_main{
     padding-bottom:2%;
+    animation: slideBottom 1.1s 0.2s;
 }
+.btnrd1{
+    animation: slideBottom 1.1s 0.4s;
+}
+.btnrd2{
+    animation: slideBottom 1.1s 0.8s;
+}
+.btnrd3{
+    animation: slideBottom 1.1s 1s;
+}
+.div_infos1{
+    animation: slideBottom 1.1s 0.6s;
+}
+.div_infos2{
+    animation: slideBottom 1.1s 0.8s;
+}
+.payment_title{
+    animation: slideUp 1.1s 1.2s;
+}
+.credit_card{
+    animation: slideUp 1.1s 1.4s;
+}
+.paypal{
+    animation: slideUp 1.1s 1.6s;
+}
+.terms_main{
+    animation: slideUp 1.1s 1.8s;
+}
+
 .info_title{
     margin-top:2%;
     font-weight:bold;

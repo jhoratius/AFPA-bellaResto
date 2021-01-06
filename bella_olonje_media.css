@@ -103,4 +103,45 @@
             font-size: 0.6em;
         }
     }
+/*Animations*/
+    @keyframes slideUp {
+        from{
+            transform: translateY(20%);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0%);
+            opacity:1;
+        }
+    }
+    @keyframes slideBottom {
+            from{
+                transform: translateY(-20%);
+                opacity:0;
+            }
+            to{
+                transform: translateY(0);
+                opacity:1;
+            }
+        }
+    @keyframes slideLeft {
+        from{
+            transform: translateX(-20%);
+            opacity:0;
+        }
+        to{
+            transform: translateX(0);
+            opacity:1;
+        }
+    }
+    @keyframes slideRight {
+        from{
+            transform: translateX(20%);
+            opacity:0;
+        }
+        to{
+            transform: translateX(0);
+            opacity:1;
+        }
+    }
     
